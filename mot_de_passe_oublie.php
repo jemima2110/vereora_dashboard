@@ -144,7 +144,7 @@ button{width:100%;margin-top:18px;padding:14px;border:0;border-radius:8px;backgr
 <input type="email" id="email" name="email" placeholder="exemple@domaine.com" value="<?= htmlspecialchars($_POST['email'] ?? '', ENT_QUOTES, 'UTF-8') ?>" autocomplete="email" required>
 <button type="submit">Envoyer le lien</button>
 </form>
-<a class="back" href="login.php">← Retour à la connexion</a>
+<a class="back" href="log.php">← Retour à la connexion</a>
 </section>
 </main>
 </body>
