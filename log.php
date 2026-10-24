@@ -356,7 +356,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
             <?php endif; ?>
 
-            <form id="loginForm" method="POST" action="login.php">
+            <form id="loginForm" method="POST" action="log.php">
                 <div class="field">
                     <label for="identifiant">
                         Identifiant ou adresse e-mail
